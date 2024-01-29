@@ -19,12 +19,12 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import javax.swing.JApplet;
+import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-public class Tetris extends JApplet implements ActionListener, ItemListener,
+public class Tetris extends JFrame implements ActionListener, ItemListener,
 		KeyListener {
 
 	public static int r = 28, c = 11, s = 15, lw = 90;
